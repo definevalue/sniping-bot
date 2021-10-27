@@ -114,9 +114,5 @@ const initConfig = async (obj) => {
 }
 
 const run = async () => {
-  console.log(process.env.privateKey)
-  initConfig({privateKey: "test11111111"})
-  console.log(process.env.privateKey)
-}
 
-run();
+}
